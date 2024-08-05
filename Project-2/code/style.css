@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+}
+.nav {
+    height: 97px;
+    width: 100vw;
+    background-color: #6F6AF7;
+    color: white;
+    text-align: center;
+}
+
+#Dappr {
+    font-family: 'Delius Unicase';
+    font-size: 49px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Options {
+    position: relative;
+    top: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.searchbar {
+    position: relative;
+}
+
+.searchopt {
+    position: absolute;
+    right: 5px;
+    height: 15px;
+    top: 6px;
+}
+
+#input {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+select {
+    background-color: #6F6AF7;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+button {
+    background-color: #6F6AF7;
+    color: white;
+    border: none;
+}
+
+.page {
+    margin-top: 120px;
+    margin-left: 80px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.box {
+    display: inline-flex;
+    height: 150px;
+    width: 60px;
+}
+
+.icons {
+    /* display: inline-flex;
+    flex-direction: column;
+    position: sticky;
+    margin-top: 120px;
+    right: 5px; */
+    height: 40px;
+    display: block;
+    width: fit-content;
+}
+
+.right textarea {
+    width: 950px;
+    background-color: #E5D8FF;
+    border-radius: 20px;
+    font-size: x-large;
+    margin-top: 25px;
+    resize: none;
+    margin-left: 50px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.total p {
+    color: white;
+    padding: 10px;
+    width: 237px;
+    border-radius: 9px;
+}
+
+#one {
+    background-color: #929DFF;
+    box-shadow: 0px 0px 35px 1px rgb(131, 131, 131);
+}
+
+#two {
+    background-color: #734CF2;
+    box-shadow: 0px 0px 35px 1px rgb(131, 131, 131);
+}
+
+#three {
+    background-color: #D288FF;
+    box-shadow: 0px 0px 35px 1px rgb(131, 131, 131);
+}
+
+#four {
+    background-color: #000000;
+    box-shadow: 0px 0px 35px 1px rgb(131, 131, 131);
+}
+
+.help {
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    right: 45px;
+    top: 85%
+}
+
+.bottom {
+    margin: 80px;
+    height: 500px;
+    width: 90vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #483EFF;
+    display: inline-flex;
+}
+
+.selections {
+    height: 500px;
+    width: 180px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+
+#five {
+    background-color: #BCE0F6;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    width: 250px;
+    height: 75px;
+    border: #000000;
+    box-shadow: 0px 0px 35px 1px rgb(131, 131, 131);
+}
+
+#six,
+#seven {
+    background-color: #483EFF;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    width: 250px;
+    height: 75px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom {
+    display: flex;
+    background-color: #483EFF;
+    width: 90vw;
+    height: 500px;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#bottomLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 70px;
+}
+
+.buttons {
+    background-color: #483EFF;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    width: 250px;
+    height: 75px;
+    margin-left: 20px;
+}
+#bottomOne{
+    display: inline-flex;
+    height: 450px;
+    width: 950px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#bottomRightLeft {
+    padding-left: 50px;
+    padding-top: 50px;
+    color: #04285A;
+}
+.Information{
+    margin-left: 25px;
+    margin-top: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;   
+    font-size: 20px;
+}
+#bottomRightRight{
+    /* margin-right: ; */
+    margin-top: 350px;
+    margin-left: 450px;
+    
+}
+#inlinebutton{
+    background-color: #000000;
+    display: inline-flex;
+    height: 50px;
+    width:150px ;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
